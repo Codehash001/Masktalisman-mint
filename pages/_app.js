@@ -10,7 +10,7 @@ import { Chain, mainnet, polygon , polygonMumbai } from 'wagmi/chains';
 
 
 const { provider, chains } = configureChains(
-  [polygonMumbai, mainnet],
+  [polygon],
   [
     jsonRpcProvider({
       rpc: chain => ({ http: 'https://polygon-mainnet.g.alchemy.com/v2/IfVsDwKREcH-mYrQY8XxF1wCMebgEWuU' }),

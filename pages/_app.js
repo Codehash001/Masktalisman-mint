@@ -13,14 +13,14 @@ const { provider, chains } = configureChains(
   [polygonMumbai, mainnet],
   [
     jsonRpcProvider({
-      rpc: chain => ({process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL}),
+      rpc: chain => ({ http: 'https://polygon-mainnet.g.alchemy.com/v2/IfVsDwKREcH-mYrQY8XxF1wCMebgEWuU' }),
     }),
   ]
 );
 
 const { connectors } = getDefaultWallets({
   appName: "My RainbowKit App",
-  jsonRpcUrl: {process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL},
+  jsonRpcUrl: 'https://polygon-mainnet.g.alchemy.com/v2/IfVsDwKREcH-mYrQY8XxF1wCMebgEWuU',
   chains
 });
 

@@ -81,7 +81,7 @@ const incrementMintAmount = () => {
    
     <div className='w-full h-full md:px-20 px-4 md:py-4 py-2 flex flex-col justify-center items-center relative'>
     
-    	  <h1 className='text-black text-[40px] font-bold text-center'>{isPublicState? 'Mint is Live!' : isPausedState ? 'Will be Live soon!' : 'Will be Live soon!'}</h1>
+    	  <h1 className='text-black text-[40px] font-bold text-center'>{isPausedState ? 'Will be Live soon!' isPublicState? 'Mint is Live!' :  'Will be Live soon!'}</h1>
     	  
     	  <ConnectButton />
     	  

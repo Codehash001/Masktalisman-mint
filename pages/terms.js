@@ -10,7 +10,7 @@ export default function Terms () {
   
   return (
   <>
-   <div className='font-Archivo'>
+   <div className='font-Archivo md:px-16 px-4 py-4'>
    
     <div className='w-full h-full flex flex-col justify-start items-center'>
     <h1 className='text-[40px] text-center'>MaskTalisman TERMS & CONDITIONS</h1>

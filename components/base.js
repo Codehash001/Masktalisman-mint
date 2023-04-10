@@ -85,7 +85,7 @@ const [toggleState, setToggleState] = useState(1);
     	  <h1 className='text-black md:text-[64px] text-4xl font-bold md:mt-6'>MaskTalisman</h1>
     	  <h1 className='md:text-xl text-lg font-medium md:mt-5 mt-2 text-center'>A must-see masterpiece that you won't want to miss!</h1>
     	  
-    	  <p className='text-lg font-medium md:mt-5 mt-2 text-center'>
+    	  <p className='text-lg md:mt-6 mt-2 text-justify'>
     	     MaskTalisman is a collection of 335 Mask NFTs—unique digital collectibles living on the Polygon blockchain. Each holder will receive one MaskAvatar NFT per each MaskTalisman NFT held. Max 20/wallet.
     	  </p>
     	  
